@@ -45,69 +45,26 @@ const CountdownTimer = () => {
         <div style={{display: 'flex', justifyContent: 'center', gap: '10px', position: 'relative',top: '450px',right:"540px" ,zIndex: 1,}}>
             <div style={{width: '80px',height: '80px',backgroundColor: '#D3D3D3',borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',fontSize: '24px',fontWeight: 'bold',color: '#333',}}>
                 <div>{countdown.days}</div>
-                <span style={{ fontSize: '14px',
-                    fontWeight: 'normal',
-                    color: '#666',
-                }}>Days</span>
+                <span style={{ fontSize: '14px',fontWeight: 'normal',color: '#666',}}>Days</span>
             </div>
-            <div style={{
-              width: '80px',
-              height: '80px',
-              backgroundColor: '#D3D3D3',
-              borderRadius: '8px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                fontSize: '24px',
-                fontWeight: 'bold',
-                color: '#333',
+            <div style={{width: '80px',height: '80px',backgroundColor: '#D3D3D3',borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',fontSize: '24px',fontWeight: 'bold',color: '#333',
             }}>
                 <div>{countdown.hours}</div>
-                <span style={{
-                    fontSize: '14px',
-                    fontWeight: 'normal',
-                    color: '#666',
+                <span style={{fontSize: '14px',fontWeight: 'normal',color: '#666',
                 }}>Hours</span>
             </div>
-            <div style={{
-                width: '80px',
-                height: '80px',
-                backgroundColor: '#D3D3D3',
-                borderRadius: '8px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                fontSize: '24px',
-                fontWeight: 'bold',
-                color: '#333',
+            <div style={{width: '80px',height: '80px',backgroundColor: '#D3D3D3',borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',fontSize: '24px',fontWeight: 'bold',color: '#333',
             }}>
                 <div>{countdown.minutes}</div>
                 <span style={{
-                    fontSize: '14px',
-                    fontWeight: 'normal',
-                    color: '#666',
+                    fontSize: '14px',fontWeight: 'normal',color: '#666',
                 }}>Minutes</span>
             </div>
             <div style={{
-                 width: '80px',
-                 height: '80px',
-                 backgroundColor: '#D3D3D3',
-                 borderRadius: '8px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                fontSize: '24px',
-                fontWeight: 'bold',
-                color: '#333',
+                 width: '80px',height: '80px',backgroundColor: '#D3D3D3', borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',fontSize: '24px',fontWeight: 'bold',color: '#333',
             }}>
                 <div>{countdown.seconds}</div>
-                <span style={{
-                    fontSize: '14px',
-                    fontWeight: 'normal',
-                    color: '#666',
+                <span style={{fontSize: '14px',ontWeight: 'normal', color: '#666',
                 }}>Seconds</span>
             </div>
         </div>
