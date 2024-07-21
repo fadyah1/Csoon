@@ -43,14 +43,9 @@ const CountdownTimer = () => {
 
     return (
         <div style={{display: 'flex', justifyContent: 'center', gap: '10px', position: 'relative',top: '450px',right:"540px" ,zIndex: 1,}}>
-            <div style={{width: '80px',height: '80px',backgroundColor: '#D3D3D3',borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',
-                fontSize: '24px',
-                fontWeight: 'bold',
-                color: '#333',
-            }}>
+            <div style={{width: '80px',height: '80px',backgroundColor: '#D3D3D3',borderRadius: '8px',display: 'flex',flexDirection: 'column',justifyContent: 'center',alignItems: 'center',fontSize: '24px',fontWeight: 'bold',color: '#333',}}>
                 <div>{countdown.days}</div>
-                <span style={{
-                    fontSize: '14px',
+                <span style={{ fontSize: '14px',
                     fontWeight: 'normal',
                     color: '#666',
                 }}>Days</span>
